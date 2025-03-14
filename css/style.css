@@ -4,3 +4,11 @@ header{
 body{
     background-image: url(../img/cork.png);
 }
+.vt-title{
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+}
+.vt-text{
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+}
