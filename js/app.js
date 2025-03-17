@@ -28,6 +28,12 @@ for (let i = 0; i < 6; i++) {
                     </div>
                 </div>`
             rowElement.innerHTML = items;
+
+
+
+
+
+            
         }).catch(error => {
             console.log(error)
         })
