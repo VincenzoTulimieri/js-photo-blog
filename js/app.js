@@ -1,6 +1,6 @@
 // dichiarazioni delle variabili e cattura degli elementi html
 const rowElement = document.querySelector('.row');
-const btnElement = document.querySelector('.btn');
+const btnElement = document.querySelector('.vt-btn');
 const overlayElement = document.getElementById('overlay')
 
 // salvataggio in una variabile dell'Api

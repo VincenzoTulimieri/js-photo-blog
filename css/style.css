@@ -7,6 +7,12 @@ body {
     background-image: url(../img/cork.png);
 }
 
+/* utilities class */
+body.no-scroll{
+    overflow-y: hidden;
+}
+
+
 /* text style */
 .vt-title {
     font-family: "Edu TAS Beginner", cursive;
@@ -31,14 +37,16 @@ body {
 /* card */
 .card {
     box-shadow: 2px 3px #a6744d;
+    transition: all 0.5s;
 }
 
 .card:hover {
     cursor: pointer;
+    rotate: 10deg;
+    scale: 1.1;
 }
 
 /* container */
-
 .row {
     margin: 0 auto;
 }
@@ -58,11 +66,26 @@ body {
     align-items: center;
 }
 
-#image {
+.image {
    text-align: center; 
 }
-#image img {
+.image img {
     width: 100%;
-    display: block; 
+    display: block;
+    margin-top: 20px;
+}
+.img-dimension{
+    width: 600px;
+    height: 600px;
+}
+
+.vt-btn{
+    all: unset;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #de9d5c;
+}
+.vt-btn:hover{
+    filter: brightness(1.4);
 }
 
