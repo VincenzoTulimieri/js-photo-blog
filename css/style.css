@@ -31,7 +31,6 @@ body {
 /* card */
 .card {
     box-shadow: 2px 3px #a6744d;
-    ;
 }
 
 .card:hover {
@@ -39,9 +38,6 @@ body {
 }
 
 /* container */
-.vt-container {
-    position: relative;
-}
 
 .row {
     margin: 0 auto;
@@ -57,23 +53,16 @@ body {
     top: 0;
     left: 0;
     z-index: 2;
-}
-
-.vt-btn {
-    position: absolute;
-    top: 50px;
-    left: 50%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+   text-align: center; 
+}
+#image img {
+    width: 100%;
+    display: block; 
 }
 
-.img-dimension {
-    width: 100%;
-    display: block;
-}
